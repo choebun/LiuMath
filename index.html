@@ -54,7 +54,7 @@
     font-size: 50px;
   }
   .about > p{
-      width: 660px;
+      
       margin: auto;
       padding: 20px 40px;
       text-align: center;
@@ -64,10 +64,14 @@
       display: flex;
       justify-content: space-evenly;
       padding: 20px;
+      align-items: center;
+  }
+  .about.sec2 .pic{
+    padding: 10px 20px;
   }
   .about.sec2 img{
-      width: 600px;
-      height: 400px;
+        max-width:100%;
+        height:auto;
   }
   /* .about.sec2 .pic{
       width: 50%;
@@ -139,6 +143,14 @@
       padding: 20px 0;
       
   }
+
+  @media(max-width:900px){
+  .about.sec2 img{
+    max-width:100%;
+    height:auto;
+  }
+}
+
 </style>
 
 <body>
